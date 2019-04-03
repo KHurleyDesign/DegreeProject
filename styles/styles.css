@@ -122,4 +122,32 @@ legend {
 h1 {
   color: red;
 }
+
+.u-fontWeightReg {
+  font-weight: 400;
+}
+
+.u-fontWeightSemiBold {
+  font-weight: 600;
+}
+
+.u-fontWeightBold {
+  font-weight: 700;
+}
+
+.u-fontWeightExtraBold {
+  font-weight: 800;
+}
+
+.u-fontWeightBlack {
+  font-weight: 900;
+}
+
+.grid-homepage {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[10];
+      grid-template-rows: repeat(10, 1fr);
+  width: 95%;
+}
 /*# sourceMappingURL=styles.css.map */
