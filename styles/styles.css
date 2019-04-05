@@ -143,11 +143,36 @@ h1 {
   font-weight: 900;
 }
 
+.u-pgTitle {
+  font-family: "Playfair Display", serif;
+}
+
+.u-paragraph {
+  font-family: "Open Sans", sans-serif;
+}
+
 .grid-homepage {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr)[10];
-      grid-template-rows: repeat(10, 1fr);
-  width: 95%;
+  -ms-grid-columns: (1fr)[10];
+      grid-template-columns: repeat(10, 1fr);
+  grid-column-gap: 10px;
+  margin-top: 5%;
+}
+
+.hr-heading {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+}
+
+.hp-introPara {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 5;
+  grid-column: 5/10;
+}
+
+.hp-headline_styles {
+  font-size: 10em;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,14 @@
 .grid-homepage {
     display: grid;
-    grid-template-rows: repeat(10, 1fr);
-    width: 95%;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 10px;
+    margin-top: 5%;
+}
+
+.hr-heading {
+    grid-column: 2/4;
+}
+
+.hp-introPara {
+    grid-column: 5/10;
 }
