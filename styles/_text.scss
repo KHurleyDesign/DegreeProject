@@ -1,4 +1,4 @@
-.hp-headline_styles {
+.headline_styles {
     font-size: 9em;
     color: $brandRed;
 
@@ -15,8 +15,21 @@
 
 }
 
-.hp-introPara_styles {
+.introPara_styles {
     @media only screen and (max-width: 900px) {
         text-align: center
     }
+}
+
+.up-robHeading_styles {
+    font-size: 3em;
+}
+
+.up-robQuote_styles {
+    font-size: 2em;
+}
+
+.up-DemHead_styles {
+    font-size: 2em;
+
 }

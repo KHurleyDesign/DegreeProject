@@ -139,11 +139,11 @@ legend {
   font-weight: 900;
 }
 
-.u-pgTitle {
+.u-primaryFont {
   font-family: "Playfair Display", serif;
 }
 
-.u-paragraph {
+.u-secondaryFont {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -281,28 +281,135 @@ legend {
   }
 }
 
-.hp-headline_styles {
+.grid-personas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  -ms-grid-rows: (1fr)[25];
+      grid-template-rows: repeat(25, 1fr);
+  grid-column-gap: 10px;
+  margin-top: 5%;
+}
+
+.up-heading {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
+}
+
+@media only screen and (max-width: 900px) {
+  .up-heading {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 9;
+    grid-column: 2/11;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+}
+
+.up-introPara {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 3;
+  grid-row: 5/8;
+}
+
+@media only screen and (max-width: 900px) {
+  .up-introPara {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 9;
+    grid-column: 2/11;
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+
+.up-robHeading {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
+}
+
+.up-robImg {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
+  width: 100%;
+}
+
+.up-robQuote {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 4;
+  grid-column: 5/9;
+  -ms-grid-row: 10;
+  -ms-grid-row-span: 3;
+  grid-row: 10/13;
+  margin-left: 5%;
+}
+
+.up-robDemHead {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 12;
+  -ms-grid-row-span: 1;
+  grid-row: 12/13;
+}
+
+.headline_styles {
   font-size: 9em;
   color: #b71c1c;
 }
 
 @media only screen and (max-width: 900px) {
-  .hp-headline_styles {
+  .headline_styles {
     font-size: 6em;
     text-align: center;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  .hp-headline_styles {
+  .headline_styles {
     font-size: 4em;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .hp-introPara_styles {
+  .introPara_styles {
     text-align: center;
   }
+}
+
+.up-robHeading_styles {
+  font-size: 3em;
+}
+
+.up-robQuote_styles {
+  font-size: 2em;
+}
+
+.up-DemHead_styles {
+  font-size: 2em;
+}
+
+.up-personaImg {
+  border-radius: 50%;
 }
 
 .content {
