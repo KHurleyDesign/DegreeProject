@@ -1,4 +1,15 @@
 .hp-headline_styles {
-    font-size: 10em;
+    font-size: 9em;
     color: $brandRed;
+
+    @media only screen and (max-width: 900px) {
+        font-size: 6em;
+        text-align: center
+    }
+}
+
+.hp-introPara_styles {
+    @media only screen and (max-width: 900px) {
+        text-align: center
+    }
 }

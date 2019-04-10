@@ -6,14 +6,27 @@
     margin-top: 5%;
 }
 
-.hr-heading {
+.hp-heading {
     grid-column: 2/4;
     grid-row: 1/5;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 2/11;
+        grid-row: 1/2;
+    }
 }
 
 .hp-introPara {
     grid-column: 7/11;
     grid-row: 3/5;
+
+
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 2/11;
+        grid-row: 2/3;
+        margin-top: 5%;
+    }
 
 }
 
@@ -21,6 +34,11 @@
     grid-column: 2/6;
     grid-row: 4/7;
     width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+        grid-row: 3/6;
+    }
 }
 
 .hp-userJourneyImg {
@@ -28,16 +46,30 @@
     grid-row: 6/9;
     width: 100%;
 
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+    }
+
 }
 
 .hp-prototypes {
     grid-column: 2/6;
     grid-row: 8/11;
     width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+        grid-row: 9/12;
+    }
 }
 
 .hp-bibliography {
     grid-column: 7/11;
     grid-row: 10/13;
     width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+        grid-row: 12/15;
+    }
 }
