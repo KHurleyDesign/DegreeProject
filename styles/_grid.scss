@@ -1,14 +1,31 @@
 .grid-homepage {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     grid-column-gap: 10px;
     margin-top: 5%;
 }
 
 .hr-heading {
     grid-column: 2/4;
+    grid-row: 1/5;
 }
 
 .hp-introPara {
-    grid-column: 5/10;
+    grid-column: 6/10;
+    grid-row: 3/5;
+}
+
+.hp-userPersonaImg {
+    grid-column: 2/6;
+    grid-row: 4/7;
+    width: 100%;
+
+}
+
+.hp-userJourneyImg {
+    grid-column: 7/11;
+    grid-row: 5/8;
+    width: 100%;
+
 }
