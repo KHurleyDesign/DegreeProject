@@ -152,8 +152,8 @@ legend {
   display: grid;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
-  -ms-grid-rows: (1fr)[10];
-      grid-template-rows: repeat(10, 1fr);
+  -ms-grid-rows: (1fr)[15];
+      grid-template-rows: repeat(15, 1fr);
   grid-column-gap: 10px;
   margin-top: 5%;
 }
@@ -168,9 +168,9 @@ legend {
 }
 
 .hp-introPara {
-  -ms-grid-column: 6;
+  -ms-grid-column: 7;
   -ms-grid-column-span: 4;
-  grid-column: 6/10;
+  grid-column: 7/11;
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
   grid-row: 3/5;
@@ -190,9 +190,29 @@ legend {
   -ms-grid-column: 7;
   -ms-grid-column-span: 4;
   grid-column: 7/11;
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-row-span: 3;
-  grid-row: 5/8;
+  grid-row: 6/9;
+  width: 100%;
+}
+
+.hp-prototypes {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-column: 2/6;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 3;
+  grid-row: 8/11;
+  width: 100%;
+}
+
+.hp-bibliography {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
+  -ms-grid-row: 10;
+  -ms-grid-row-span: 3;
+  grid-row: 10/13;
   width: 100%;
 }
 

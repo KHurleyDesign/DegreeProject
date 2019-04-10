@@ -1,7 +1,7 @@
 .grid-homepage {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(15, 1fr);
     grid-column-gap: 10px;
     margin-top: 5%;
 }
@@ -12,20 +12,32 @@
 }
 
 .hp-introPara {
-    grid-column: 6/10;
+    grid-column: 7/11;
     grid-row: 3/5;
+
 }
 
 .hp-userPersonaImg {
     grid-column: 2/6;
     grid-row: 4/7;
     width: 100%;
-
 }
 
 .hp-userJourneyImg {
     grid-column: 7/11;
-    grid-row: 5/8;
+    grid-row: 6/9;
     width: 100%;
 
+}
+
+.hp-prototypes {
+    grid-column: 2/6;
+    grid-row: 8/11;
+    width: 100%;
+}
+
+.hp-bibliography {
+    grid-column: 7/11;
+    grid-row: 10/13;
+    width: 100%;
 }
