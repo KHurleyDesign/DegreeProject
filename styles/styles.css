@@ -196,6 +196,7 @@ legend {
     -ms-grid-row-span: 1;
     grid-row: 2/3;
     margin-top: 5%;
+    margin-bottom: 5%;
   }
 }
 
@@ -289,6 +290,12 @@ legend {
   .hp-headline_styles {
     font-size: 6em;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .hp-headline_styles {
+    font-size: 4em;
   }
 }
 
