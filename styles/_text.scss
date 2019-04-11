@@ -1,9 +1,10 @@
 .headline_styles {
-    font-size: 9em;
+    font-size: 7em;
     color: $brandRed;
+    line-height: 1.2em;
 
     @media only screen and (max-width: 900px) {
-        font-size: 6em;
+        font-size: 5em;
         text-align: center;
     }
 
