@@ -37,12 +37,15 @@
 
 .up-subHead_styles {
     font-size: 2em;
-
 }
 
 .up-ul_info {
     list-style: circle;
     line-height: 2em;
+
+    li {
+        margin-bottom: 10%;
+    }
 
 }
 

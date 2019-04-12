@@ -379,9 +379,9 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 6;
+  -ms-grid-row: 5;
   -ms-grid-row-span: 1;
-  grid-row: 6/7;
+  grid-row: 5/6;
 }
 
 .up-robHeading {
@@ -643,6 +643,10 @@ body {
 .up-ul_info {
   list-style: circle;
   line-height: 2em;
+}
+
+.up-ul_info li {
+  margin-bottom: 10%;
 }
 
 .up-ul_info {
