@@ -112,10 +112,12 @@
     grid-column-gap: 10px;
     padding-top: 5%;
 
-    // @media only screen and (max-width: 900px) {
-    //     display: flex;
-    //     flex-direction: column;
-    // }
+    @media only screen and (max-width: 900px) {
+        display: flex;
+        flex-direction: column;
+        padding: 5% 10% 5% 10%;
+    }
+
 
 }
 
@@ -158,6 +160,11 @@
     grid-column: 3/6;
     grid-row: 8/12;
     width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        max-width: 50%;
+        place-self: center;
+    }
 }
 
 .up-robQuote {
@@ -174,21 +181,33 @@
 .up-robDemHead {
     grid-column: 2/4;
     grid-row: 13/14;
-    place-self: end start;
+
+    @media only screen and (min-width: 900px) {
+
+        place-self: end start;
+    }
 
 }
 
 .up-robGoalHead {
     grid-column: 5/8;
     grid-row: 14/15;
-    place-self: end start;
+
+    @media only screen and (min-width: 900px) {
+
+        place-self: end start;
+    }
 
 }
 
 .up-robPainHead {
     grid-column: 8/11;
     grid-row: 15/16;
-    place-self: end start;
+
+    @media only screen and (min-width: 900px) {
+
+        place-self: end start;
+    }
 
 }
 
@@ -211,6 +230,11 @@
     grid-column: 8/11;
     grid-row: 18/21;
     width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        max-width: 50%;
+        place-self: center;
+    }
 }
 
 .up-marHeading {
@@ -229,24 +253,38 @@
     place-self: center start;
 }
 
+
 .up-marDemHead {
     grid-column: 11/8;
     grid-row: 23/24;
-    place-self: end start;
+
+    @media only screen and (min-width: 900px) {
+
+        place-self: end start;
+    }
+
 
 }
 
 .up-marGoalHead {
     grid-column: 5/8;
     grid-row: 24/25;
-    place-self: end start;
+
+    @media only screen and (min-width: 900px) {
+
+        place-self: end start;
+    }
 
 }
 
 .up-marPainHead {
     grid-column: 2/4;
     grid-row: 25/26;
-    place-self: end start;
+
+    @media only screen and (min-width: 900px) {
+
+        place-self: end start;
+    }
 
 }
 
