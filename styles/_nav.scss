@@ -52,9 +52,10 @@ nav {
                 line-height: $nav-height;
                 background: black;
                 // Change this color to a diffrent color
-                color: $nav-font-color;
+                color: $brandgrey;
                 text-decoration: none;
                 font-family: $fontTwo;
+
 
                 &:hover {
                     background: $brandRed;
