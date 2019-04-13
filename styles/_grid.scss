@@ -12,6 +12,7 @@
     @media only screen and (max-width: 530px) {
         grid-template-rows: repeat(15, 1fr);
 
+
     }
 
 }
@@ -110,12 +111,17 @@
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(35, 1fr);
     grid-column-gap: 10px;
-    padding-top: 5%;
 
     @media only screen and (max-width: 900px) {
         display: flex;
         flex-direction: column;
-        padding: 5% 10% 5% 10%;
+        justify-content: space-between;
+        margin: 5%;
+
+        .Grid--gutters {
+            margin-bottom: $gutter;
+        }
+
     }
 
 
@@ -135,8 +141,6 @@
     grid-column: 7/11;
     grid-row: 3/6;
 
-
-
     @media only screen and (max-width: 1000px) {
         grid-column: 2/11;
         grid-row: 3/5;
@@ -153,7 +157,12 @@
 .up-robHeading {
     grid-column: 6/9;
     grid-row: 11/12;
-    padding-left: 5%;
+
+    @media only screen and (min-width: 900px) {
+        padding-left: 5%;
+    }
+
+
 }
 
 .up-robImg {
@@ -175,7 +184,10 @@
 .up-robDesc {
     grid-column: 6/10;
     grid-row: 12/14;
-    padding-left: 5%;
+
+    @media only screen and (min-width: 900px) {
+        padding-left: 5%;
+    }
 }
 
 .up-robDemHead {
@@ -240,6 +252,7 @@
 .up-marHeading {
     grid-column: 6/8;
     grid-row: 21/22;
+
 }
 
 .up-marDesc {
@@ -250,13 +263,20 @@
 .up-marQuote {
     grid-column: 3/7;
     grid-row: 19/21;
-    place-self: center start;
+
+    text-align: center;
+
+    @media only screen and (min-width: 900px) {
+
+        place-self: center start;
+    }
 }
 
 
 .up-marDemHead {
     grid-column: 11/8;
     grid-row: 23/24;
+
 
     @media only screen and (min-width: 900px) {
 

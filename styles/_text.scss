@@ -43,9 +43,12 @@
     list-style: circle;
     line-height: 2em;
 
-    li {
-        margin-bottom: 10%;
+    @media only screen and (min-width: 900px) {
+        li {
+            margin-bottom: 10%;
+        }
     }
+
 
 }
 
