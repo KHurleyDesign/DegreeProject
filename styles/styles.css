@@ -853,6 +853,7 @@ legend {
   line-height: 70px;
   font-size: 1.4em;
   font-family: "Playfair Display", serif;
+  text-self: start;
 }
 
 .brand a,
