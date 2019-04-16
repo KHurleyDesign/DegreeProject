@@ -8,6 +8,11 @@ $nav-font-color: #ffffff;
 .navigation {
     height: $nav-height;
     background: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 // Logo and branding
@@ -31,6 +36,7 @@ $nav-font-color: #ffffff;
 .nav-container {
     max-width: $content-width;
     margin: 0 auto;
+
 }
 
 // Navigation 

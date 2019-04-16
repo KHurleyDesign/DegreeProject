@@ -1,7 +1,7 @@
 .headline_styles {
     font-size: 7em;
     color: $brandRed;
-    line-height: 1.2em;
+    line-height: 1em;
 
     @media only screen and (max-width: 900px) {
         font-size: 5em;
@@ -41,7 +41,6 @@
 
 .up-ul_info {
     list-style: circle;
-    line-height: 2em;
 
     @media only screen and (min-width: 900px) {
         li {
@@ -52,6 +51,6 @@
 
 }
 
-.up-ul_info {
+.up-p_info {
     line-height: 1.5em;
 }

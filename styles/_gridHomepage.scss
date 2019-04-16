@@ -1,0 +1,151 @@
+.grid-homepage {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    padding-top: 5%;
+
+    @media only screen and (max-width: 900px) {
+        grid-template-rows: repeat(18, 1fr);
+    }
+
+    @media only screen and (max-width: 530px) {
+        grid-template-rows: repeat(15, 1fr);
+
+
+    }
+
+}
+
+.hp-heading {
+    grid-column: 2/4;
+    grid-row: 1/5;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 2/11;
+        grid-row: 1/2;
+    }
+}
+
+.hp-introPara {
+    grid-column: 7/11;
+    grid-row: 2/3;
+
+
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 2/11;
+        grid-row: 2/3;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+}
+
+.hp-userPersonaImg {
+    grid-column: 2/6;
+    grid-row: 3/6;
+    width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+
+    }
+
+}
+
+.hp-userJourneyImg {
+    grid-column: 7/11;
+    grid-row: 5/8;
+    width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+        grid-row: 7/10;
+    }
+
+    @media only screen and (max-width: 530px) {
+        grid-row: 6/9;
+
+    }
+
+}
+
+.hp-prototypes {
+    grid-column: 2/6;
+    grid-row: 7/10;
+    width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+        grid-row: 11/14;
+    }
+
+    @media only screen and (max-width: 530px) {
+        grid-row: 9/12;
+
+    }
+
+}
+
+.hp-bibliography {
+    grid-column: 7/11;
+    grid-row: 9/12;
+    width: 100%;
+
+    @media only screen and (max-width: 900px) {
+        grid-column: 3/10;
+        grid-row: 15/18;
+    }
+
+    @media only screen and (max-width: 530px) {
+        grid-row: 12/15;
+
+    }
+}
+
+
+
+
+//grid journey
+.grid-journey {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 10px;
+    padding-top: 5%;
+
+}
+
+.uj-heading {
+    grid-column: 2/4;
+    grid-row: 1/5;
+}
+
+.uj-introPara {
+    grid-column: 7/11;
+    grid-row: 3/6;
+
+
+}
+
+.uj-inPgNav {
+    grid-column: 1/11;
+    grid-row: 5/6;
+}
+
+.uj-robHeading {
+    grid-column: 6/9;
+    grid-row: 8/9;
+}
+
+.uj-robGoalHead {
+    grid-column: 6/9;
+    grid-row: 9/10;
+}
+
+.uj-robGoalP {
+    grid-column: 6/9;
+    grid-row: 9/10;
+    place-self: center;
+}
