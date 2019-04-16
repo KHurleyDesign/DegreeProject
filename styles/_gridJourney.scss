@@ -1,0 +1,60 @@
+//grid journey
+.grid-journey {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(30, 1fr);
+    grid-column-gap: 10px;
+    padding-top: 5%;
+
+}
+
+.uj-heading {
+    grid-column: 2/4;
+    grid-row: 1/5;
+}
+
+.uj-introPara {
+    grid-column: 7/11;
+    grid-row: 3/6;
+
+
+}
+
+.uj-inPgNav {
+    grid-column: 1/11;
+    grid-row: 5/6;
+}
+
+.uj-robHeading {
+    grid-column: 6/9;
+    grid-row: 8/9;
+}
+
+.uj-robGoalHead {
+    grid-column: 6/9;
+    grid-row: 9/10;
+}
+
+.uj-robGoalP {
+    grid-column: 6/9;
+    grid-row: 9/10;
+    place-self: center;
+}
+
+.uj-robStepOne {
+    grid-column: 5/8;
+    grid-row: 12/13;
+    background-color: $brandRed;
+    padding: 5%;
+    color: white;
+    place-self: center;
+}
+
+.uj-robStepTwo {
+    grid-column: 5/8;
+    grid-row: 13/14;
+    background-color: $brandRed;
+    padding: 5%;
+    color: white;
+    place-self: center;
+}
