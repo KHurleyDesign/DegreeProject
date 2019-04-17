@@ -3,7 +3,7 @@
 .grid-personas {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(60, 1fr);
+    grid-template-rows: repeat(51, 1fr);
     grid-column-gap: 10px;
     padding-top: 5%;
 
@@ -368,7 +368,7 @@
 
 }
 
-.up-marGoalHead {
+.up-cmGoalHead {
     grid-column: 5/8;
     grid-row: 46/47;
 
@@ -379,7 +379,7 @@
 
 }
 
-.up-marPainHead {
+.up-cmPainHead {
     grid-column: 11/8;
     grid-row: 47/48;
 

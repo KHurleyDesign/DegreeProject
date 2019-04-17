@@ -330,8 +330,8 @@ legend {
   display: grid;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
-  -ms-grid-rows: (1fr)[60];
-      grid-template-rows: repeat(60, 1fr);
+  -ms-grid-rows: (1fr)[51];
+      grid-template-rows: repeat(51, 1fr);
   grid-column-gap: 10px;
   padding-top: 5%;
 }
@@ -882,7 +882,7 @@ legend {
   }
 }
 
-.up-marGoalHead {
+.up-cmGoalHead {
   -ms-grid-column: 5;
   -ms-grid-column-span: 3;
   grid-column: 5/8;
@@ -892,12 +892,12 @@ legend {
 }
 
 @media only screen and (min-width: 900px) {
-  .up-marGoalHead {
+  .up-cmGoalHead {
     place-self: end start;
   }
 }
 
-.up-marPainHead {
+.up-cmPainHead {
   -ms-grid-column: 11;
   -ms-grid-column-span: -3;
   grid-column: 11/8;
@@ -907,7 +907,7 @@ legend {
 }
 
 @media only screen and (min-width: 900px) {
-  .up-marPainHead {
+  .up-cmPainHead {
     place-self: end start;
   }
 }
