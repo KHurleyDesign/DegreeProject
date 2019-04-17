@@ -36,7 +36,13 @@
 
 .uj-inPgNav {
     grid-column: 1/11;
-    grid-row: 5/6;
+    grid-row: 6/7;
+}
+
+.uj-robImg {
+    grid-column: 3/6;
+    grid-row: 8/12;
+    width: 100%;
 }
 
 .uj-robHeading {
@@ -57,47 +63,48 @@
 
 .uj-robJourney {
     grid-column: 5/8;
-    grid-row: 11/25;
+    grid-row: 12/25;
 }
 
 .uj-marImg {
     grid-column: 3/6;
-    grid-row: 27/30;
+    grid-row: 26/31;
     width: 100%;
 }
 
 
 .uj-marHeading {
     grid-column: 6/9;
-    grid-row: 27/28;
+    grid-row: 26/27;
+    place-self: end start;
 }
 
 .uj-marGoalHead {
     grid-column: 6/9;
-    grid-row: 28/29;
+    grid-row: 27/28;
 }
 
 .uj-marGoalP {
     grid-column: 6/9;
-    grid-row: 28/30;
+    grid-row: 27/28;
     place-self: center;
 }
 
 .uj-marJourney {
     grid-column: 5/8;
-    grid-row: 30/50;
+    grid-row: 30/40;
 }
 
 .uj-decLineOne {
     grid-column: 3/10;
-    grid-row: 26/27;
+    grid-row: 24/25;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
     margin-top: 5%;
 }
 
 .uj-decLineTwo {
     grid-column: 3/10;
-    grid-row: 41/42;
+    grid-row: 40/41;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
     margin-top: 5%;
 }

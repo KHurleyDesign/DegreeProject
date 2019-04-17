@@ -330,8 +330,8 @@ legend {
   display: grid;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
-  -ms-grid-rows: (1fr)[28];
-      grid-template-rows: repeat(28, 1fr);
+  -ms-grid-rows: (1fr)[60];
+      grid-template-rows: repeat(60, 1fr);
   grid-column-gap: 10px;
   padding-top: 5%;
 }
@@ -678,6 +678,267 @@ legend {
   margin-top: 5%;
 }
 
+.up-henImg {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3/6;
+  -ms-grid-row: 29;
+  -ms-grid-row-span: 3;
+  grid-row: 29/32;
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .up-henImg {
+    max-width: 50%;
+    place-self: center;
+  }
+}
+
+.up-henHeading {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 32;
+  -ms-grid-row-span: 1;
+  grid-row: 32/33;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-henHeading {
+    padding-left: 5%;
+  }
+}
+
+.up-henQuote {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
+  -ms-grid-row: 30;
+  -ms-grid-row-span: 2;
+  grid-row: 30/32;
+}
+
+.up-henDesc {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-column: 6/10;
+  -ms-grid-row: 33;
+  -ms-grid-row-span: 2;
+  grid-row: 33/35;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-henDesc {
+    padding-left: 5%;
+  }
+}
+
+.up-henDemHead {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 34;
+  -ms-grid-row-span: 1;
+  grid-row: 34/35;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-henDemHead {
+    place-self: end start;
+  }
+}
+
+.up-henDemInfo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 35;
+  -ms-grid-row-span: 2;
+  grid-row: 35/37;
+}
+
+.up-henGoalHead {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-column: 5/8;
+  -ms-grid-row: 35;
+  -ms-grid-row-span: 1;
+  grid-row: 35/36;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-henGoalHead {
+    place-self: end start;
+  }
+}
+
+.up-henGoalInfo {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-column: 5/7;
+  -ms-grid-row: 36;
+  -ms-grid-row-span: 2;
+  grid-row: 36/38;
+}
+
+.up-henPainHead {
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-column: 8/11;
+  -ms-grid-row: 36;
+  -ms-grid-row-span: 1;
+  grid-row: 36/37;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-henPainHead {
+    place-self: end start;
+  }
+}
+
+.up-henPainInfo {
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-column: 8/11;
+  -ms-grid-row: 37;
+  -ms-grid-row-span: 2;
+  grid-row: 37/39;
+}
+
+.up-decLineThree {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 7;
+  grid-column: 3/10;
+  -ms-grid-row: 39;
+  -ms-grid-row-span: 1;
+  grid-row: 39/40;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+}
+
+.up-cmImg {
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 3;
+  grid-column: 8/11;
+  -ms-grid-row: 40;
+  -ms-grid-row-span: 3;
+  grid-row: 40/43;
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .up-cmImg {
+    max-width: 50%;
+    place-self: center;
+  }
+}
+
+.up-cmHeading {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 5;
+  grid-column: 6/11;
+  -ms-grid-row: 43;
+  -ms-grid-row-span: 1;
+  grid-row: 43/44;
+}
+
+.up-cmDesc {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 4;
+  grid-column: 6/10;
+  -ms-grid-row: 44;
+  -ms-grid-row-span: 2;
+  grid-row: 44/46;
+}
+
+.up-marQuote {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 4;
+  grid-column: 3/7;
+  -ms-grid-row: 19;
+  -ms-grid-row-span: 2;
+  grid-row: 19/21;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-marQuote {
+    place-self: center start;
+  }
+}
+
+.up-marDemHead {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 23;
+  -ms-grid-row-span: 1;
+  grid-row: 23/24;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-marDemHead {
+    place-self: end start;
+  }
+}
+
+.up-marGoalHead {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-column: 5/8;
+  -ms-grid-row: 24;
+  -ms-grid-row-span: 1;
+  grid-row: 24/25;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-marGoalHead {
+    place-self: end start;
+  }
+}
+
+.up-marPainHead {
+  -ms-grid-column: 11;
+  -ms-grid-column-span: -3;
+  grid-column: 11/8;
+  -ms-grid-row: 25;
+  -ms-grid-row-span: 1;
+  grid-row: 25/26;
+}
+
+@media only screen and (min-width: 900px) {
+  .up-marPainHead {
+    place-self: end start;
+  }
+}
+
+.up-marDemInfo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  -ms-grid-row: 24;
+  -ms-grid-row-span: 2;
+  grid-row: 24/26;
+}
+
+.up-marGoalInfo {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-column: 5/7;
+  -ms-grid-row: 25;
+  -ms-grid-row-span: 3;
+  grid-row: 25/28;
+}
+
+.up-marPainInfo {
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 2;
+  grid-column: 8/10;
+  -ms-grid-row: 26;
+  -ms-grid-row-span: 2;
+  grid-row: 26/28;
+}
+
 .grid-journey {
   display: -ms-grid;
   display: grid;
@@ -730,9 +991,19 @@ legend {
   -ms-grid-column: 1;
   -ms-grid-column-span: 10;
   grid-column: 1/11;
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-row-span: 1;
-  grid-row: 5/6;
+  grid-row: 6/7;
+}
+
+.uj-robImg {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3/6;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
+  width: 100%;
 }
 
 .uj-robHeading {
@@ -767,22 +1038,32 @@ legend {
   -ms-grid-column: 5;
   -ms-grid-column-span: 3;
   grid-column: 5/8;
-  -ms-grid-row: 11;
-  -ms-grid-row-span: 14;
-  grid-row: 11/25;
+  -ms-grid-row: 12;
+  -ms-grid-row-span: 13;
+  grid-row: 12/25;
 }
 
 .uj-marImg {
   -ms-grid-column: 3;
   -ms-grid-column-span: 3;
   grid-column: 3/6;
-  -ms-grid-row: 27;
-  -ms-grid-row-span: 3;
-  grid-row: 27/30;
+  -ms-grid-row: 26;
+  -ms-grid-row-span: 5;
+  grid-row: 26/31;
   width: 100%;
 }
 
 .uj-marHeading {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 26;
+  -ms-grid-row-span: 1;
+  grid-row: 26/27;
+  place-self: end start;
+}
+
+.uj-marGoalHead {
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
   grid-column: 6/9;
@@ -791,22 +1072,13 @@ legend {
   grid-row: 27/28;
 }
 
-.uj-marGoalHead {
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 3;
-  grid-column: 6/9;
-  -ms-grid-row: 28;
-  -ms-grid-row-span: 1;
-  grid-row: 28/29;
-}
-
 .uj-marGoalP {
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
   grid-column: 6/9;
-  -ms-grid-row: 28;
-  -ms-grid-row-span: 2;
-  grid-row: 28/30;
+  -ms-grid-row: 27;
+  -ms-grid-row-span: 1;
+  grid-row: 27/28;
   place-self: center;
 }
 
@@ -815,17 +1087,17 @@ legend {
   -ms-grid-column-span: 3;
   grid-column: 5/8;
   -ms-grid-row: 30;
-  -ms-grid-row-span: 20;
-  grid-row: 30/50;
+  -ms-grid-row-span: 10;
+  grid-row: 30/40;
 }
 
 .uj-decLineOne {
   -ms-grid-column: 3;
   -ms-grid-column-span: 7;
   grid-column: 3/10;
-  -ms-grid-row: 26;
+  -ms-grid-row: 24;
   -ms-grid-row-span: 1;
-  grid-row: 26/27;
+  grid-row: 24/25;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   margin-top: 5%;
 }
@@ -834,9 +1106,9 @@ legend {
   -ms-grid-column: 3;
   -ms-grid-column-span: 7;
   grid-column: 3/10;
-  -ms-grid-row: 41;
+  -ms-grid-row: 40;
   -ms-grid-row-span: 1;
-  grid-row: 41/42;
+  grid-row: 40/41;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
   margin-top: 5%;
 }
