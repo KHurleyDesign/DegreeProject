@@ -852,32 +852,32 @@ legend {
   grid-row: 44/46;
 }
 
-.up-marQuote {
+.up-cmQuote {
   -ms-grid-column: 3;
   -ms-grid-column-span: 4;
   grid-column: 3/7;
-  -ms-grid-row: 19;
+  -ms-grid-row: 41;
   -ms-grid-row-span: 2;
-  grid-row: 19/21;
+  grid-row: 41/43;
 }
 
 @media only screen and (min-width: 900px) {
-  .up-marQuote {
+  .up-cmQuote {
     place-self: center start;
   }
 }
 
-.up-marDemHead {
+.up-cmDemHead {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
-  -ms-grid-row: 23;
+  -ms-grid-row: 45;
   -ms-grid-row-span: 1;
-  grid-row: 23/24;
+  grid-row: 45/46;
 }
 
 @media only screen and (min-width: 900px) {
-  .up-marDemHead {
+  .up-cmDemHead {
     place-self: end start;
   }
 }
@@ -886,9 +886,9 @@ legend {
   -ms-grid-column: 5;
   -ms-grid-column-span: 3;
   grid-column: 5/8;
-  -ms-grid-row: 24;
+  -ms-grid-row: 46;
   -ms-grid-row-span: 1;
-  grid-row: 24/25;
+  grid-row: 46/47;
 }
 
 @media only screen and (min-width: 900px) {
@@ -901,9 +901,9 @@ legend {
   -ms-grid-column: 11;
   -ms-grid-column-span: -3;
   grid-column: 11/8;
-  -ms-grid-row: 25;
+  -ms-grid-row: 47;
   -ms-grid-row-span: 1;
-  grid-row: 25/26;
+  grid-row: 47/48;
 }
 
 @media only screen and (min-width: 900px) {
@@ -912,31 +912,42 @@ legend {
   }
 }
 
-.up-marDemInfo {
+.up-cmDemInfo {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-column: 2/4;
-  -ms-grid-row: 24;
+  -ms-grid-row: 46;
   -ms-grid-row-span: 2;
-  grid-row: 24/26;
+  grid-row: 46/48;
 }
 
-.up-marGoalInfo {
+.up-cmGoalInfo {
   -ms-grid-column: 5;
   -ms-grid-column-span: 2;
   grid-column: 5/7;
-  -ms-grid-row: 25;
-  -ms-grid-row-span: 3;
-  grid-row: 25/28;
+  -ms-grid-row: 47;
+  -ms-grid-row-span: 2;
+  grid-row: 47/49;
 }
 
-.up-marPainInfo {
+.up-cmPainInfo {
   -ms-grid-column: 8;
   -ms-grid-column-span: 2;
   grid-column: 8/10;
-  -ms-grid-row: 26;
+  -ms-grid-row: 48;
   -ms-grid-row-span: 2;
-  grid-row: 26/28;
+  grid-row: 48/50;
+}
+
+.up-decLineThree {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 7;
+  grid-column: 3/10;
+  -ms-grid-row: 50;
+  -ms-grid-row-span: 1;
+  grid-row: 50/51;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
 }
 
 .grid-journey {
