@@ -763,13 +763,82 @@ legend {
   place-self: center;
 }
 
-.uj-robStepOne {
+.uj-robJourney {
   -ms-grid-column: 5;
   -ms-grid-column-span: 3;
   grid-column: 5/8;
-  -ms-grid-row: 12;
+  -ms-grid-row: 11;
   -ms-grid-row-span: 14;
-  grid-row: 12/26;
+  grid-row: 11/25;
+}
+
+.uj-marImg {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3/6;
+  -ms-grid-row: 27;
+  -ms-grid-row-span: 3;
+  grid-row: 27/30;
+  width: 100%;
+}
+
+.uj-marHeading {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 27;
+  -ms-grid-row-span: 1;
+  grid-row: 27/28;
+}
+
+.uj-marGoalHead {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 28;
+  -ms-grid-row-span: 1;
+  grid-row: 28/29;
+}
+
+.uj-marGoalP {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 28;
+  -ms-grid-row-span: 2;
+  grid-row: 28/30;
+  place-self: center;
+}
+
+.uj-marJourney {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-column: 5/8;
+  -ms-grid-row: 30;
+  -ms-grid-row-span: 20;
+  grid-row: 30/50;
+}
+
+.uj-decLineOne {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 7;
+  grid-column: 3/10;
+  -ms-grid-row: 26;
+  -ms-grid-row-span: 1;
+  grid-row: 26/27;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
+}
+
+.uj-decLineTwo {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 7;
+  grid-column: 3/10;
+  -ms-grid-row: 41;
+  -ms-grid-row-span: 1;
+  grid-row: 41/42;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  margin-top: 5%;
 }
 
 .headline_styles {
