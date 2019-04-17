@@ -2,9 +2,23 @@
 .grid-journey {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(30, 1fr);
+    grid-template-rows: repeat(50, 1fr);
     grid-column-gap: 10px;
     padding-top: 5%;
+
+}
+
+.stepsGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5%;
+    margin-top: 10%;
+
+    .Grid--gutters {
+        margin-bottom: $gutter;
+    }
+
 
 }
 
@@ -43,18 +57,5 @@
 
 .uj-robStepOne {
     grid-column: 5/8;
-    grid-row: 12/13;
-    background-color: $brandRed;
-    padding: 5%;
-    color: white;
-    place-self: center;
-}
-
-.uj-robStepTwo {
-    grid-column: 5/8;
-    grid-row: 13/14;
-    background-color: $brandRed;
-    padding: 5%;
-    color: white;
-    place-self: center;
+    grid-row: 12/26;
 }
