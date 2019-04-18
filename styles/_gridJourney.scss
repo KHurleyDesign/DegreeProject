@@ -18,6 +18,43 @@
     .Grid--gutters {
         margin-bottom: $gutter;
     }
+}
+
+.outter {
+    position: relative;
+}
+
+.stepLeft {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 2em);
+    /*   right: calc(100% + 2em); */
+    width: 200px;
+    padding: 2em;
+    border: 1px solid $brandgrey;
+    display: none;
+}
+
+.stepRight {
+    position: absolute;
+    top: 0;
+    right: calc(100% + 2em);
+    /*   right: calc(100% + 2em); */
+    width: 200px;
+    padding: 2em;
+    border: 1px solid $brandgrey;
+    display: none;
+}
+
+.outter:hover {
+
+    .stepRight {
+        display: block;
+    }
+
+    .stepLeft {
+        display: block;
+    }
 
 
 }
@@ -47,19 +84,19 @@
 
 .uj-robHeading {
     grid-column: 6/9;
-    grid-row: 8/9;
+    grid-row: 11/12;
 }
 
-.uj-robGoalHead {
-    grid-column: 6/9;
-    grid-row: 9/10;
-}
+// .uj-robGoalHead {
+//     grid-column: 6/9;
+//     grid-row: 9/10;
+// }
 
-.uj-robGoalP {
-    grid-column: 6/9;
-    grid-row: 9/10;
-    place-self: center;
-}
+// .uj-robGoalP {
+//     grid-column: 6/9;
+//     grid-row: 9/10;
+//     place-self: center;
+// }
 
 .uj-robJourney {
     grid-column: 5/8;

@@ -153,6 +153,10 @@ legend {
   border: 2px solid #b71c1c;
 }
 
+.u-colorPrimary {
+  color: #b71c1c;
+}
+
 .grid-homepage {
   display: -ms-grid;
   display: grid;
@@ -980,6 +984,40 @@ legend {
   margin-bottom: 1.5em;
 }
 
+.outter {
+  position: relative;
+}
+
+.stepLeft {
+  position: absolute;
+  top: 0;
+  left: calc(100% + 2em);
+  /*   right: calc(100% + 2em); */
+  width: 200px;
+  padding: 2em;
+  border: 1px solid #9e9e9e;
+  display: none;
+}
+
+.stepRight {
+  position: absolute;
+  top: 0;
+  right: calc(100% + 2em);
+  /*   right: calc(100% + 2em); */
+  width: 200px;
+  padding: 2em;
+  border: 1px solid #9e9e9e;
+  display: none;
+}
+
+.outter:hover .stepRight {
+  display: block;
+}
+
+.outter:hover .stepLeft {
+  display: block;
+}
+
 .uj-heading {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
@@ -1021,28 +1059,9 @@ legend {
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
   grid-column: 6/9;
-  -ms-grid-row: 8;
+  -ms-grid-row: 11;
   -ms-grid-row-span: 1;
-  grid-row: 8/9;
-}
-
-.uj-robGoalHead {
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 3;
-  grid-column: 6/9;
-  -ms-grid-row: 9;
-  -ms-grid-row-span: 1;
-  grid-row: 9/10;
-}
-
-.uj-robGoalP {
-  -ms-grid-column: 6;
-  -ms-grid-column-span: 3;
-  grid-column: 6/9;
-  -ms-grid-row: 9;
-  -ms-grid-row-span: 1;
-  grid-row: 9/10;
-  place-self: center;
+  grid-row: 11/12;
 }
 
 .uj-robJourney {
