@@ -996,7 +996,7 @@ legend {
   width: 200px;
   padding: 2em;
   border: 1px solid #9e9e9e;
-  display: none;
+  opacity: 0.3;
 }
 
 .stepRight {
@@ -1007,15 +1007,17 @@ legend {
   width: 200px;
   padding: 2em;
   border: 1px solid #9e9e9e;
-  display: none;
+  opacity: 0.3;
 }
 
 .outter:hover .stepRight {
   display: block;
+  opacity: 1;
 }
 
 .outter:hover .stepLeft {
   display: block;
+  opacity: 1;
 }
 
 .uj-heading {
