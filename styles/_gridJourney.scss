@@ -2,10 +2,9 @@
 .grid-journey {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(50, 1fr);
+    grid-template-rows: repeat(60, 1fr);
     grid-column-gap: 10px;
     padding-top: 5%;
-
 }
 
 .stepsGrid {
@@ -132,6 +131,35 @@
 .uj-marJourney {
     grid-column: 5/8;
     grid-row: 30/40;
+}
+
+.uj-henImg {
+    grid-column: 3/6;
+    grid-row: 42/45;
+    width: 100%;
+}
+
+
+.uj-henHeading {
+    grid-column: 6/9;
+    grid-row: 42/43;
+    place-self: end start;
+}
+
+.uj-henGoalHead {
+    grid-column: 6/9;
+    grid-row: 43/44;
+}
+
+s .uj-henGoalP {
+    grid-column: 6/9;
+    grid-row: 43/44;
+    padding-top: 30px;
+}
+
+.uj-henJourney {
+    grid-column: 5/8;
+    grid-row: 46/60;
 }
 
 .uj-decLineOne {

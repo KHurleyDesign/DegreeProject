@@ -959,8 +959,8 @@ legend {
   display: grid;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
-  -ms-grid-rows: (1fr)[50];
-      grid-template-rows: repeat(50, 1fr);
+  -ms-grid-rows: (1fr)[60];
+      grid-template-rows: repeat(60, 1fr);
   grid-column-gap: 10px;
   padding-top: 5%;
 }
@@ -1140,6 +1140,54 @@ legend {
   -ms-grid-row: 30;
   -ms-grid-row-span: 10;
   grid-row: 30/40;
+}
+
+.uj-henImg {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 3;
+  grid-column: 3/6;
+  -ms-grid-row: 42;
+  -ms-grid-row-span: 3;
+  grid-row: 42/45;
+  width: 100%;
+}
+
+.uj-henHeading {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 42;
+  -ms-grid-row-span: 1;
+  grid-row: 42/43;
+  place-self: end start;
+}
+
+.uj-henGoalHead {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 43;
+  -ms-grid-row-span: 1;
+  grid-row: 43/44;
+}
+
+s .uj-henGoalP {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 3;
+  grid-column: 6/9;
+  -ms-grid-row: 43;
+  -ms-grid-row-span: 1;
+  grid-row: 43/44;
+  padding-top: 30px;
+}
+
+.uj-henJourney {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
+  grid-column: 5/8;
+  -ms-grid-row: 46;
+  -ms-grid-row-span: 14;
+  grid-row: 46/60;
 }
 
 .uj-decLineOne {
