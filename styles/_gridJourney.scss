@@ -27,7 +27,7 @@
 .stepLeft {
     position: absolute;
     top: 0;
-    left: calc(100% + 2em);
+    right: calc(100% + 2em);
     /*   right: calc(100% + 2em); */
     width: 200px;
     padding: 2em;
@@ -38,7 +38,7 @@
 .stepRight {
     position: absolute;
     top: 0;
-    right: calc(100% + 2em);
+    left: calc(100% + 2em);
     /*   right: calc(100% + 2em); */
     width: 200px;
     padding: 2em;
@@ -86,19 +86,19 @@
 
 .uj-robHeading {
     grid-column: 6/9;
-    grid-row: 11/12;
+    grid-row: 8/9;
 }
 
-// .uj-robGoalHead {
-//     grid-column: 6/9;
-//     grid-row: 9/10;
-// }
+.uj-robGoalHead {
+    grid-column: 6/9;
+    grid-row: 9/10;
+}
 
-// .uj-robGoalP {
-//     grid-column: 6/9;
-//     grid-row: 9/10;
-//     place-self: center;
-// }
+.uj-robGoalP {
+    grid-column: 6/9;
+    grid-row: 9/10;
+    padding-top: 30px;
+}
 
 .uj-robJourney {
     grid-column: 5/8;
@@ -126,7 +126,7 @@
 .uj-marGoalP {
     grid-column: 6/9;
     grid-row: 27/28;
-    place-self: center;
+    padding-top: 30px;
 }
 
 .uj-marJourney {
