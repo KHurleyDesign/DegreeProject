@@ -1171,7 +1171,7 @@ legend {
   grid-row: 43/44;
 }
 
-s .uj-henGoalP {
+.uj-henGoalP {
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
   grid-column: 6/9;
