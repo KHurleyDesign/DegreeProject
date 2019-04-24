@@ -29,7 +29,7 @@
     right: calc(100% + 2em);
     /*   right: calc(100% + 2em); */
     width: 200px;
-    padding: 2em;
+    padding: 1em;
     border: 1px solid $brandgrey;
     opacity: 0.3;
 }
@@ -40,7 +40,7 @@
     left: calc(100% + 2em);
     /*   right: calc(100% + 2em); */
     width: 200px;
-    padding: 2em;
+    padding: 1em;
     border: 1px solid $brandgrey;
     opacity: 0.3;
 }
@@ -101,77 +101,114 @@
 
 .uj-robJourney {
     grid-column: 5/8;
-    grid-row: 12/25;
+    grid-row: 11/23;
 }
 
 .uj-marImg {
     grid-column: 3/6;
-    grid-row: 26/31;
+    grid-row: 24/29;
     width: 100%;
 }
 
 
 .uj-marHeading {
     grid-column: 6/9;
-    grid-row: 26/27;
+    grid-row: 24/25;
     place-self: end start;
 }
 
 .uj-marGoalHead {
     grid-column: 6/9;
-    grid-row: 27/28;
+    grid-row: 25/26;
 }
 
 .uj-marGoalP {
     grid-column: 6/9;
-    grid-row: 27/28;
+    grid-row: 25/26;
     padding-top: 30px;
 }
 
 .uj-marJourney {
     grid-column: 5/8;
-    grid-row: 30/40;
+    grid-row: 27/37;
 }
 
 .uj-henImg {
     grid-column: 3/6;
-    grid-row: 42/45;
+    grid-row: 39/42;
     width: 100%;
 }
 
 
 .uj-henHeading {
     grid-column: 6/9;
-    grid-row: 42/43;
+    grid-row: 39/40;
     place-self: end start;
 }
 
 .uj-henGoalHead {
     grid-column: 6/9;
-    grid-row: 43/44;
+    grid-row: 40/41;
 }
 
 .uj-henGoalP {
     grid-column: 6/9;
-    grid-row: 43/44;
+    grid-row: 40/41;
     padding-top: 30px;
 }
 
 .uj-henJourney {
     grid-column: 5/8;
-    grid-row: 46/60;
+    grid-row: 42/49;
 }
+
+.uj-cmImg {
+    grid-column: 3/6;
+    grid-row: 51/54;
+    width: 100%;
+}
+
+
+.uj-cmHeading {
+    grid-column: 6/10;
+    grid-row: 51/52;
+    place-self: end start;
+}
+
+.uj-cmGoalHead {
+    grid-column: 6/9;
+    grid-row: 52/53;
+}
+
+// .uj-cmGoalP {
+//     grid-column: 6/9;
+//     grid-row: 40/41;
+//     padding-top: 30px;
+// }
+
+// .uj-cmJourney {
+//     grid-column: 5/8;
+//     grid-row: 42/49;
+// }
+
 
 .uj-decLineOne {
     grid-column: 3/10;
-    grid-row: 24/25;
+    grid-row: 23/24;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
     margin-top: 5%;
 }
 
 .uj-decLineTwo {
     grid-column: 3/10;
-    grid-row: 40/41;
+    grid-row: 38/39;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+}
+
+.uj-decLineThree {
+    grid-column: 3/10;
+    grid-row: 50/51;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
     margin-top: 5%;
 }
