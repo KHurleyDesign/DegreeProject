@@ -251,6 +251,15 @@ legend {
       grid-template-rows: reapeat(4, 1fr);
 }
 
+.grid-robPersona {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  -ms-grid-rows: reapeat(10, 1fr);
+      grid-template-rows: reapeat(10, 1fr);
+}
+
 .up-heading {
   -ms-grid-column: 3;
   -ms-grid-column-span: 2;
@@ -307,6 +316,15 @@ legend {
   grid-column: 4/9;
   text-align: center;
   margin: 15%;
+}
+
+.rob-img {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
 }
 
 .grid-journey {
@@ -664,7 +682,7 @@ legend {
 }
 
 .up-personaImg {
-  border-radius: 50%;
+  width: 100%;
 }
 
 .content {
