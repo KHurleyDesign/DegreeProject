@@ -1,9 +1,9 @@
 // Persona page
 
-.grid-personas {
+.grid-personasTop {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(51, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-column-gap: 10px;
     padding-top: 5%;
 
@@ -24,8 +24,8 @@
 }
 
 .up-heading {
-    grid-column: 2/4;
-    grid-row: 1/5;
+    grid-column: 3/5;
+    grid-row: 2/4;
 
     @media only screen and (max-width: 900px) {
         grid-column: 2/11;
@@ -46,8 +46,8 @@
 }
 
 .up-inPgNav {
-    grid-column: 1/11;
-    grid-row: 5/6;
+    grid-column: 2/10;
+    grid-row: 6/7;
 }
 
 .up-robHeading {

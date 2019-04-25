@@ -9,7 +9,7 @@
         float: left;
         margin-right: 0px;
         padding: 3%;
-        border-right: 1px solid $brandgrey;
+        border-right: 1px solid white;
     }
 
     li:last-child {
@@ -18,8 +18,9 @@
 
     li a {
         text-decoration: none;
-        color: $brandgrey;
-        font-size: 2em;
+        color: white;
+        font-size: 1.25em;
+        font-weight: 700;
         text-transform: uppercase;
         font-family: $fontTwo;
         scroll-behavior: smooth;
