@@ -24,22 +24,29 @@
         }
 
         .paraPadding {
-            // padding-left: 10%;
             padding-right: 50%;
+
+            @media only screen and (max-width: 840px) {
+                padding-right: 0;
+            }
         }
 
     }
 
-    // @media only screen and (max-width: 900px) {
-
-    //     margin-top: 10%;
-
-    //     .paraPadding {
-    //         padding: 0;
-    //     }
-
-    // }
+    @media only screen and (max-width: 840px) {
+        padding-top: 20%;
+    }
 }
+
+// @media only screen and (max-width: 900px) {
+
+//     margin-top: 10%;
+
+//     .paraPadding {
+//         padding: 0;
+//     }
+
+// }
 
 
 .hp-heading {

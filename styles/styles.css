@@ -210,6 +210,18 @@ legend {
   }
 }
 
+@media only screen and (max-width: 1150px) and (max-width: 840px) {
+  .grid-homepage .paraPadding {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .grid-homepage {
+    padding-top: 20%;
+  }
+}
+
 .hp-heading {
   -ms-grid-column: 2;
   -ms-grid-column-span: 5;
@@ -626,16 +638,15 @@ legend {
   font-weight: 900;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 650px) {
   .headline_styles {
     font-size: 5em;
-    text-align: center;
   }
 }
 
 @media only screen and (max-width: 650px) {
   .headline_styles {
-    font-size: 4em;
+    font-size: 3em;
   }
 }
 
@@ -645,9 +656,9 @@ legend {
   font-family: "Open Sans", sans-serif;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 650px) {
   .introPara_styles {
-    text-align: center;
+    font-size: 14px;
   }
 }
 
@@ -683,6 +694,12 @@ legend {
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 1.5em;
+}
+
+@media only screen and (max-width: 650px) {
+  .hp-link_styles {
+    font-size: 20px;
+  }
 }
 
 .content {
