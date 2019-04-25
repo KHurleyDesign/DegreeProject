@@ -260,7 +260,7 @@ legend {
   padding-top: 5%;
 }
 
-.grid-personasTwo {
+.grid-quote {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[11];
@@ -269,13 +269,13 @@ legend {
       grid-template-rows: repeat(1, 1fr);
 }
 
-.grid-robPersona {
+.grid-Persona {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
-  -ms-grid-rows: (1fr)[10];
-      grid-template-rows: repeat(10, 1fr);
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
 }
 
 .up-heading {
@@ -305,7 +305,7 @@ legend {
   grid-row: 7/8;
 }
 
-.rob_quote {
+.quote {
   -ms-grid-column: 4;
   -ms-grid-column-span: 5;
   grid-column: 4/9;
@@ -313,24 +313,64 @@ legend {
   margin: 15%;
 }
 
-.up-rob_img {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 3;
-  grid-column: 2/5;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 3;
-  grid-row: 2/5;
+.up-img {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 6;
+  grid-row: 1/7;
   width: 100%;
+  height: auto;
   overflow: hidden;
 }
 
-.up-robName {
+.up-name {
   -ms-grid-column: 4;
-  -ms-grid-column-span: 3;
-  grid-column: 4/7;
+  -ms-grid-column-span: 6;
+  grid-column: 4/10;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.up-desc {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
   -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
+  -ms-grid-row-span: 3;
+  grid-row: 3/6;
+}
+
+.up-demInfo {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 2;
+  grid-column: 4/6;
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 2;
+  grid-row: 5/7;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 5%;
+  border-radius: 3%;
+}
+
+.up-goalInfo {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 2;
+  grid-column: 6/8;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 2;
+  grid-row: 6/8;
+}
+
+.up-painInfo {
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 2;
+  grid-column: 8/10;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 2;
+  grid-row: 7/9;
 }
 
 .grid-journey {
@@ -663,8 +703,9 @@ legend {
 }
 
 .up-Heading_styles {
-  font-size: 3.5em;
+  font-size: 2em;
   color: #7C0221;
+  font-weight: 700;
 }
 
 .up-Quote_styles {
@@ -676,16 +717,32 @@ legend {
 
 .up-subHead_styles {
   font-size: 2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.up-name_styles {
+  font-size: 10em;
+  color: #7C0221;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
+.up-ul_info {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 900px) {
   .up-ul_info li {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 }
 
 .up-p_info {
   line-height: 1.5em;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 .hp-link_styles {

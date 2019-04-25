@@ -27,8 +27,9 @@
 }
 
 .up-Heading_styles {
-    font-size: 3.5em;
+    font-size: 2em;
     color: $brandRed;
+    font-weight: 700;
 }
 
 .up-Quote_styles {
@@ -40,14 +41,24 @@
 
 .up-subHead_styles {
     font-size: 2em;
+    font-family: $fontTwo;
+}
+
+.up-name_styles {
+    font-size: 10em;
+    color: $brandRed;
+    font-family: $fontTwo;
+    font-weight: 800;
 }
 
 .up-ul_info {
+    font-family: $fontTwo;
+    font-weight: 400;
     // list-style: circle;
 
     @media only screen and (min-width: 900px) {
         li {
-            margin-bottom: 10%;
+            margin-bottom: 5%;
         }
     }
 
@@ -56,6 +67,10 @@
 
 .up-p_info {
     line-height: 1.5em;
+    font-size: 1.2em;
+    font-family: $fontTwo;
+    font-weight: 400;
+
 }
 
 .hp-link_styles {

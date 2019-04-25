@@ -20,16 +20,16 @@
     // }
 }
 
-.grid-personasTwo {
+.grid-quote {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     grid-template-rows: repeat(1, 1fr);
 }
 
-.grid-robPersona {
+.grid-Persona {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 }
 
 
@@ -60,20 +60,44 @@
     grid-row: 7/8;
 }
 
-.rob_quote {
+.quote {
     grid-column: 4/9;
     text-align: center;
     margin: 15%;
 }
 
-.up-rob_img {
-    grid-column: 2/5;
-    grid-row: 2/5;
+.up-img {
+    grid-column: 1/6;
+    grid-row: 1/7;
     width: 100%;
+    height: auto;
     overflow: hidden;
 }
 
-.up-robName {
-    grid-column: 4/7;
-    grid-row: 3/4;
+.up-name {
+    grid-column: 4/10;
+    grid-row: 1/3;
+}
+
+.up-desc {
+    grid-column: 7/11;
+    grid-row: 3/6;
+}
+
+.up-demInfo {
+    grid-column: 4/6;
+    grid-row: 5/7;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 5%;
+    border-radius: 3%
+}
+
+.up-goalInfo {
+    grid-column: 6/8;
+    grid-row: 6/8;
+}
+
+.up-painInfo {
+    grid-column: 8/10;
+    grid-row: 7/9;
 }
