@@ -1185,10 +1185,6 @@ legend {
   font-size: 2em;
 }
 
-.up-ul_info {
-  list-style: circle;
-}
-
 @media only screen and (min-width: 900px) {
   .up-ul_info li {
     margin-bottom: 10%;
