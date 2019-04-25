@@ -169,6 +169,10 @@ legend {
   background-color: #1D1E20;
 }
 
+.hp-height {
+  height: 100vh;
+}
+
 .grid-homepage {
   display: -ms-grid;
   display: grid;
@@ -181,10 +185,35 @@ legend {
   background-color: #1D1E20;
 }
 
+@media only screen and (max-width: 1150px) {
+  .grid-homepage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+  .grid-homepage .Grid--gutters {
+    margin-bottom: 5%;
+  }
+  .grid-homepage .paraPadding {
+    padding-right: 50%;
+  }
+}
+
 .hp-heading {
-  -ms-grid-column: 3;
+  -ms-grid-column: 2;
   -ms-grid-column-span: 5;
-  grid-column: 3/8;
+  grid-column: 2/7;
   -ms-grid-row: 2;
   -ms-grid-row-span: 3;
   grid-row: 2/5;
@@ -197,6 +226,15 @@ legend {
   -ms-grid-row: 4;
   -ms-grid-row-span: 3;
   grid-row: 4/7;
+}
+
+.hp-link {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 2;
+  grid-column: 7/9;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
 }
 
 .grid-personasOne {
@@ -310,7 +348,7 @@ legend {
 }
 
 .stepsGrid .Grid--gutters {
-  margin-bottom: 1.5em;
+  margin-bottom: 5%;
 }
 
 .outter {
@@ -588,6 +626,19 @@ legend {
   font-weight: 900;
 }
 
+@media only screen and (max-width: 900px) {
+  .headline_styles {
+    font-size: 5em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .headline_styles {
+    font-size: 4em;
+  }
+}
+
 .introPara_styles {
   font-size: 1em;
   line-height: 1.7em;
@@ -624,6 +675,14 @@ legend {
 
 .up-p_info {
   line-height: 1.5em;
+}
+
+.hp-link_styles {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1.5em;
 }
 
 .content {

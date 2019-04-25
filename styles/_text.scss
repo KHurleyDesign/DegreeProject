@@ -4,15 +4,15 @@
     color: white;
     font-weight: 900;
 
-    // @media only screen and (max-width: 900px) {
-    //     font-size: 5em;
-    //     text-align: center;
-    // }
+    @media only screen and (max-width: 900px) {
+        font-size: 5em;
+        text-align: center;
+    }
 
-    // @media only screen and (max-width: 650px) {
-    //     font-size: 4em;
+    @media only screen and (max-width: 650px) {
+        font-size: 4em;
 
-    // }
+    }
 }
 
 .introPara_styles {
@@ -56,4 +56,12 @@
 
 .up-p_info {
     line-height: 1.5em;
+}
+
+.hp-link_styles {
+    color: white;
+    text-decoration: none;
+    font-family: $fontTwo;
+    font-weight: 800;
+    font-size: 1.5em;
 }
