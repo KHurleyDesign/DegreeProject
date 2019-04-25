@@ -1335,7 +1335,6 @@ legend {
   line-height: 70px;
   font-size: 1.4em;
   font-family: "Playfair Display", serif;
-  text-self: start;
 }
 
 .brand a:visited {
@@ -1345,7 +1344,7 @@ legend {
 }
 
 .nav-container {
-  max-width: 1090px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1497,7 +1496,7 @@ nav ul li ul li a {
 }
 
 article {
-  max-width: 1090px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 10px;
 }
