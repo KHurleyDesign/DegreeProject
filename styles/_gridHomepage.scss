@@ -1,49 +1,51 @@
 .grid-homepage {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-column-gap: 10px;
-    padding-top: 7%;
+    padding-top: 5%;
+    background-color: $brandBlack;
+    // height: 100%;
 
-    @media only screen and (max-width: 1200px) {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-left: 5%;
-        margin-right: 5%;
+    // @media only screen and (max-width: 1200px) {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: space-between;
+    //     margin-left: 5%;
+    //     margin-right: 5%;
 
-        .Grid--gutters {
-            margin-bottom: $gutter;
-        }
+    //     .Grid--gutters {
+    //         margin-bottom: $gutter;
+    //     }
 
-        .paraPadding {
-            padding-left: 10%;
-            padding-right: 10%;
-        }
+    //     .paraPadding {
+    //         padding-left: 10%;
+    //         padding-right: 10%;
+    //     }
 
-    }
+    // }
 
-    @media only screen and (max-width: 900px) {
+    // @media only screen and (max-width: 900px) {
 
-        margin-top: 10%;
+    //     margin-top: 10%;
 
-        .paraPadding {
-            padding: 0;
-        }
+    //     .paraPadding {
+    //         padding: 0;
+    //     }
 
-    }
+    // }
 }
 
 
 .hp-heading {
-    grid-column: 2/4;
-    grid-row: 1/5;
+    grid-column: 3/8;
+    grid-row: 2/5;
 
 }
 
 .hp-introPara {
     grid-column: 7/11;
-    grid-row: 2/3;
+    grid-row: 4/7;
 }
 
 // .hp-userPersonaImg {
