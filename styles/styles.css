@@ -727,6 +727,13 @@ legend {
   font-weight: 800;
 }
 
+.up-cmName_styles {
+  font-size: 8em;
+  color: #7C0221;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+}
+
 .up-ul_info {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
