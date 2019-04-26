@@ -65,13 +65,17 @@ $gutter: 5%;
 }
 
 // .u-parallax {
+
+//     /* The image used */
+//     background-image: url("/img/robert.png");
+
 //     /* Set a specific height */
-//     height: 500px;
+//     min-height: 500px;
+
 //     /* Create the parallax scrolling effect */
 //     background-attachment: fixed;
 //     background-position: center;
 //     background-repeat: no-repeat;
-//     background-size: cover;
-//     background-color: $brandRed;
+//     background-size: auto;
 
 // }
