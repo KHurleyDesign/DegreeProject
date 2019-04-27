@@ -641,6 +641,12 @@ legend {
   }
 }
 
+.journeyStepHead {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #7C0221;
+}
+
 .content {
   position: relative;
   margin: auto;
