@@ -17,6 +17,13 @@
     grid-column-gap: 10px;
 }
 
+.grid-journeyHenry {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
+}
+
 .stepsGrid {
     display: flex;
     flex-direction: column;

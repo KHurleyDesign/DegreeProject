@@ -397,6 +397,16 @@ legend {
   grid-column-gap: 10px;
 }
 
+.grid-journeyHenry {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  -ms-grid-rows: (1fr)[10];
+      grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 10px;
+}
+
 .stepsGrid {
   display: -webkit-box;
   display: -ms-flexbox;
