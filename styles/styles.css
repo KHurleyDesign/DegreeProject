@@ -560,6 +560,16 @@ legend {
   background-color: #1D1E20;
 }
 
+.grid-fakeFriendDesc {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  -ms-grid-rows: (1fr)[5];
+      grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+}
+
 .p-heading {
   -ms-grid-column: 2;
   -ms-grid-column-span: 5;
@@ -576,6 +586,24 @@ legend {
   -ms-grid-row: 4;
   -ms-grid-row-span: 3;
   grid-row: 4/7;
+}
+
+.friend-title {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 6;
+  grid-column: 2/8;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+}
+
+.friend-desc {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2/7;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3/5;
 }
 
 .grid-bibliographyTop {
@@ -716,6 +744,18 @@ legend {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   color: #7C0221;
+}
+
+.proto-title {
+  color: #7C0221;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+}
+
+.proto-desc {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
 }
 
 .content {
