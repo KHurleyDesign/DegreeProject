@@ -578,6 +578,36 @@ legend {
   grid-row: 4/7;
 }
 
+.grid-bibliographyTop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 10px;
+  padding-top: 5%;
+  background-color: #1D1E20;
+}
+
+.bib-heading {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2/7;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2/5;
+}
+
+.bib-introPara {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+  grid-row: 4/7;
+}
+
 .headline_styles {
   font-size: 8em;
   line-height: 1em;
