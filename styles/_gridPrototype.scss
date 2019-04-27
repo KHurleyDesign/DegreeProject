@@ -1,0 +1,18 @@
+.grid-prototypeTop {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    padding-top: 5%;
+    background-color: $brandBlack;
+}
+
+.p-heading {
+    grid-column: 2/7;
+    grid-row: 2/5;
+}
+
+.p-introPara {
+    grid-column: 7/11;
+    grid-row: 4/7;
+}

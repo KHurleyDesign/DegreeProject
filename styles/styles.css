@@ -267,6 +267,7 @@ legend {
       grid-template-rows: repeat(8, 1fr);
   grid-column-gap: 10px;
   padding-top: 5%;
+  background-color: #1D1E20;
 }
 
 .grid-quote {
@@ -547,6 +548,36 @@ legend {
   grid-row: 4/20;
 }
 
+.grid-prototypeTop {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+  grid-column-gap: 10px;
+  padding-top: 5%;
+  background-color: #1D1E20;
+}
+
+.p-heading {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2/7;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  grid-row: 2/5;
+}
+
+.p-introPara {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 3;
+  grid-row: 4/7;
+}
+
 .headline_styles {
   font-size: 8em;
   line-height: 1em;
@@ -717,12 +748,12 @@ legend {
   top: 80%;
 }
 
-.personaNav ul {
+.inPgNav ul {
   overflow: auto;
   list-style-type: none;
 }
 
-.personaNav li {
+.inPgNav li {
   height: 2rem;
   float: left;
   margin-right: 0px;
@@ -730,11 +761,11 @@ legend {
   border-right: 1px solid white;
 }
 
-.personaNav li:last-child {
+.inPgNav li:last-child {
   border-right: none;
 }
 
-.personaNav li a {
+.inPgNav li a {
   text-decoration: none;
   color: white;
   font-size: 1.25em;
@@ -744,7 +775,7 @@ legend {
   scroll-behavior: smooth;
 }
 
-.personaNav li a:hover {
+.inPgNav li a:hover {
   color: #7C0221;
 }
 
