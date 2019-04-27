@@ -20,6 +20,7 @@
     font-size: 1em;
     line-height: 1.7em;
     font-family: $fontTwo;
+    color: white;
 
     @media only screen and (max-width: 650px) {
         font-size: 14px;
@@ -30,6 +31,15 @@
     font-size: 2em;
     color: $brandRed;
     font-weight: 700;
+}
+
+.uj-heading-styles {
+    font-size: 7em;
+    color: white;
+    font-weight: 700;
+    font-family: $fontTwo;
+
+
 }
 
 .up-Quote_styles {
@@ -70,7 +80,15 @@
     font-size: 1.2em;
     font-family: $fontTwo;
     font-weight: 400;
+    color: white;
 
+}
+
+.up-p_head {
+    font-size: 1.2em;
+    font-family: $fontTwo;
+    font-weight: 700;
+    color: white;
 }
 
 .hp-link_styles {
