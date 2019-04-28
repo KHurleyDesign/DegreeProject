@@ -7,10 +7,10 @@
     background-color: $brandBlack;
 }
 
-.grid-fakeFriendDesc {
+.grid-fakeFriend {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(20, 1fr);
     grid-column-gap: 10px;
 }
 
@@ -25,11 +25,33 @@
 }
 
 .friend-title {
-    grid-column: 2/8;
-    grid-row: 2/3;
+    grid-column: 7/12;
+    grid-row: 3/4;
 }
 
 .friend-desc {
+    grid-column: 7/11;
+    grid-row: 3/6;
+    padding-top: 110px;
+}
+
+.friend-photoOne {
     grid-column: 2/7;
-    grid-row: 3/5;
+    grid-row: 2/6;
+    width: 100%;
+    height: auto;
+}
+
+.friend-photoTwo {
+    grid-column: 1/12;
+    grid-row: 6/13;
+    width: 100%;
+    height: auto;
+}
+
+.friend-photoThree {
+    grid-column: 6/11;
+    grid-row: 14/17;
+    width: 100%;
+    height: auto;
 }
