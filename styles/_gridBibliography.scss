@@ -29,3 +29,18 @@
       text-align: center;
       margin: 15%;
   }
+
+  .grid-source {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 5%;
+      margin-top: 10%;
+      margin-right: 40%;
+
+
+  }
+
+  .gridgutters-source {
+      margin-bottom: $gutter;
+  }
