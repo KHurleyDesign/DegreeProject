@@ -258,6 +258,24 @@ legend {
   grid-row: 7/8;
 }
 
+.hp-arrow {
+  -ms-grid-column: 8;
+  -ms-grid-column-span: 1;
+  grid-column: 8/9;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7/8;
+  width: 25%;
+  height: auto;
+  place-self: start center;
+}
+
+@media only screen and (max-width: 1150px) {
+  .hp-arrow {
+    display: none;
+  }
+}
+
 .grid-personasOne {
   display: -ms-grid;
   display: grid;
@@ -644,9 +662,9 @@ legend {
   -ms-grid-column: 2;
   -ms-grid-column-span: 4;
   grid-column: 2/6;
-  -ms-grid-row: 15;
+  -ms-grid-row: 14;
   -ms-grid-row-span: 2;
-  grid-row: 15/17;
+  grid-row: 14/16;
 }
 
 .grid-bibliographyTop {
@@ -677,6 +695,24 @@ legend {
   -ms-grid-row: 4;
   -ms-grid-row-span: 3;
   grid-row: 4/7;
+}
+
+.grid-bibSecTitle {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+  background-color: #7C0221;
+}
+
+.secTitle {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 5;
+  grid-column: 4/9;
+  text-align: center;
+  margin: 15%;
 }
 
 .headline_styles {

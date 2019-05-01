@@ -16,3 +16,16 @@
       grid-column: 7/11;
       grid-row: 4/7;
   }
+
+  .grid-bibSecTitle {
+      display: grid;
+      grid-template-columns: repeat(11, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      background-color: $brandRed;
+  }
+
+  .secTitle {
+      grid-column: 4/9;
+      text-align: center;
+      margin: 15%;
+  }
