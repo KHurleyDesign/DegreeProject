@@ -918,6 +918,10 @@ legend {
   font-family: "Playfair Display", serif;
 }
 
+.brand a {
+  color: White;
+}
+
 .brand a:visited {
   color: White;
   letter-spacing: 3px;
