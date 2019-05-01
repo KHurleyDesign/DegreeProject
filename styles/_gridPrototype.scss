@@ -1,0 +1,35 @@
+.grid-prototypeTop {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    padding-top: 5%;
+    background-color: $brandBlack;
+}
+
+.grid-fakeFriendDesc {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+}
+
+.p-heading {
+    grid-column: 2/7;
+    grid-row: 2/5;
+}
+
+.p-introPara {
+    grid-column: 7/11;
+    grid-row: 4/7;
+}
+
+.friend-title {
+    grid-column: 2/8;
+    grid-row: 2/3;
+}
+
+.friend-desc {
+    grid-column: 2/7;
+    grid-row: 3/5;
+}

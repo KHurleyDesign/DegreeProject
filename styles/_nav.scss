@@ -1,5 +1,5 @@
 // Navigation Variables
-$content-width: 1000px;
+$content-width: 1200px;
 $breakpoint: 799px;
 $nav-height: 70px;
 $nav-font-color: #ffffff;
@@ -7,7 +7,7 @@ $nav-font-color: #ffffff;
 // Outer navigation wrapper
 .navigation {
     height: $nav-height;
-    background: black;
+    background: $brandBlack;
     position: fixed;
     top: 0;
     right: 0;
@@ -18,16 +18,15 @@ $nav-font-color: #ffffff;
 // Logo and branding
 .brand {
     position: absolute;
-    padding-left: 20px;
     float: left;
     line-height: $nav-height;
     font-size: 1.4em;
     font-family: $fontOne;
-    text-self: start;
 
-    a,
+
     a:visited {
-        color: $brandRed;
+        color: White;
+        letter-spacing: 3px;
         text-decoration: none;
     }
 }
@@ -57,7 +56,7 @@ nav {
                 display: block;
                 padding: 0 20px;
                 line-height: $nav-height;
-                background: black;
+                background: $brandBlack;
                 // Change this color to a diffrent color
                 color: $brandgrey;
                 text-decoration: none;
@@ -104,7 +103,7 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    background: black;
+    background: $brandBlack;
     height: $nav-height;
     width: $nav-height;
 }

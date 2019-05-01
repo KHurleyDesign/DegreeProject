@@ -1,10 +1,27 @@
 //grid journey
+
+.grid-journeyOne {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 10px;
+    padding-top: 5%;
+    background-color: $brandBlack;
+
+}
+
 .grid-journey {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(60, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 10px;
-    padding-top: 5%;
+}
+
+.grid-journeyHenry {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
 }
 
 .stepsGrid {
@@ -61,13 +78,13 @@
 }
 
 .uj-heading {
-    grid-column: 2/4;
-    grid-row: 1/5;
+    grid-column: 2/7;
+    grid-row: 2/5;
 }
 
 .uj-introPara {
     grid-column: 7/11;
-    grid-row: 3/6;
+    grid-row: 4/7;
 
 
 }
@@ -77,138 +94,36 @@
     grid-row: 6/7;
 }
 
-.uj-robImg {
-    grid-column: 3/6;
-    grid-row: 8/12;
+.uj-img {
+    grid-column: 1/5;
+    grid-row: 1/5;
+    z-index: 100;
     width: 100%;
 }
 
-.uj-robHeading {
-    grid-column: 6/9;
-    grid-row: 8/9;
+.uj-name {
+    grid-column: 5/9;
+    grid-row: 2/3;
 }
 
-.uj-robGoalHead {
-    grid-column: 6/9;
-    grid-row: 9/10;
+.redBox {
+    grid-column: 1/12;
+    grid-row: 1/4;
+    background-color: $brandRed;
 }
 
-.uj-robGoalP {
+.uj-goalHead {
     grid-column: 6/9;
-    grid-row: 9/10;
+    grid-row: 3/4;
+}
+
+.uj-goalP {
+    grid-column: 6/9;
+    grid-row: 3/4;
     padding-top: 30px;
 }
 
-.uj-robJourney {
+.uj-journey {
     grid-column: 5/8;
-    grid-row: 11/23;
-}
-
-.uj-marImg {
-    grid-column: 3/6;
-    grid-row: 24/29;
-    width: 100%;
-}
-
-
-.uj-marHeading {
-    grid-column: 6/9;
-    grid-row: 24/25;
-    place-self: end start;
-}
-
-.uj-marGoalHead {
-    grid-column: 6/9;
-    grid-row: 25/26;
-}
-
-.uj-marGoalP {
-    grid-column: 6/9;
-    grid-row: 25/26;
-    padding-top: 30px;
-}
-
-.uj-marJourney {
-    grid-column: 5/8;
-    grid-row: 27/37;
-}
-
-.uj-henImg {
-    grid-column: 3/6;
-    grid-row: 39/42;
-    width: 100%;
-}
-
-
-.uj-henHeading {
-    grid-column: 6/9;
-    grid-row: 39/40;
-    place-self: end start;
-}
-
-.uj-henGoalHead {
-    grid-column: 6/9;
-    grid-row: 40/41;
-}
-
-.uj-henGoalP {
-    grid-column: 6/9;
-    grid-row: 40/41;
-    padding-top: 30px;
-}
-
-.uj-henJourney {
-    grid-column: 5/8;
-    grid-row: 42/49;
-}
-
-.uj-cmImg {
-    grid-column: 3/6;
-    grid-row: 51/54;
-    width: 100%;
-}
-
-
-.uj-cmHeading {
-    grid-column: 6/10;
-    grid-row: 51/52;
-    place-self: end start;
-}
-
-.uj-cmGoalHead {
-    grid-column: 6/9;
-    grid-row: 52/53;
-}
-
-// .uj-cmGoalP {
-//     grid-column: 6/9;
-//     grid-row: 40/41;
-//     padding-top: 30px;
-// }
-
-// .uj-cmJourney {
-//     grid-column: 5/8;
-//     grid-row: 42/49;
-// }
-
-
-.uj-decLineOne {
-    grid-column: 3/10;
-    grid-row: 23/24;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-    margin-top: 5%;
-}
-
-.uj-decLineTwo {
-    grid-column: 3/10;
-    grid-row: 38/39;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-    margin-top: 5%;
-}
-
-.uj-decLineThree {
-    grid-column: 3/10;
-    grid-row: 50/51;
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
-    margin-top: 5%;
+    grid-row: 4/20;
 }

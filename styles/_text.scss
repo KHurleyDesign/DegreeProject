@@ -1,50 +1,74 @@
 .headline_styles {
-    font-size: 7em;
-    color: $brandRed;
+    font-size: 8em;
     line-height: 1em;
+    color: white;
+    font-weight: 900;
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 650px) {
         font-size: 5em;
-        text-align: center;
+
     }
 
     @media only screen and (max-width: 650px) {
-        font-size: 4em;
+        font-size: 3em;
 
     }
-
-
 }
 
 .introPara_styles {
 
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1em;
+    line-height: 1.7em;
+    font-family: $fontTwo;
+    color: white;
 
-    @media only screen and (max-width: 900px) {
-        text-align: center
+    @media only screen and (max-width: 650px) {
+        font-size: 14px;
     }
 }
 
 .up-Heading_styles {
-    font-size: 3.5em;
+    font-size: 2em;
     color: $brandRed;
+    font-weight: 700;
+}
+
+.uj-heading-styles {
+    font-size: 7em;
+    color: white;
+    font-weight: 700;
+    font-family: $fontTwo;
+
+
 }
 
 .up-Quote_styles {
     font-size: 2em;
+    color: white;
+    font-weight: 800;
+    font-family: $fontTwo;
 }
 
 .up-subHead_styles {
     font-size: 2em;
+    font-family: $fontTwo;
+}
+
+.up-name_styles {
+    font-size: 10em;
+    color: $brandRed;
+    font-family: $fontTwo;
+    font-weight: 800;
 }
 
 .up-ul_info {
-    list-style: circle;
+    font-family: $fontTwo;
+    font-weight: 400;
+    // list-style: circle;
 
     @media only screen and (min-width: 900px) {
         li {
-            margin-bottom: 10%;
+            margin-bottom: 5%;
         }
     }
 
@@ -53,4 +77,50 @@
 
 .up-p_info {
     line-height: 1.5em;
+    font-size: 1.2em;
+    font-family: $fontTwo;
+    font-weight: 400;
+    color: white;
+
+}
+
+.up-p_head {
+    font-size: 1.2em;
+    font-family: $fontTwo;
+    font-weight: 700;
+    color: white;
+}
+
+.hp-link_styles {
+    color: white;
+    text-decoration: none;
+    font-family: $fontTwo;
+    font-weight: 800;
+    font-size: 1.5em;
+
+    @media only screen and (max-width: 650px) {
+        font-size: 20px;
+
+    }
+
+
+}
+
+.journeyStepHead {
+    font-family: $fontTwo;
+    font-weight: 600;
+    color: $brandRed;
+
+}
+
+.proto-title {
+    color: $brandRed;
+    font-family: $fontTwo;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+.proto-desc {
+    font-family: $fontTwo;
+    font-weight: 400;
 }
