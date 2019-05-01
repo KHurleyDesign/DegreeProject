@@ -597,7 +597,7 @@ legend {
   grid-row: 3/4;
 }
 
-.friend-desc {
+.friend-descOne {
   -ms-grid-column: 7;
   -ms-grid-column-span: 4;
   grid-column: 7/11;
@@ -638,6 +638,15 @@ legend {
   grid-row: 14/17;
   width: 100%;
   height: auto;
+}
+
+.friend-descTwo {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 4;
+  grid-column: 2/6;
+  -ms-grid-row: 15;
+  -ms-grid-row-span: 2;
+  grid-row: 15/17;
 }
 
 .grid-bibliographyTop {
