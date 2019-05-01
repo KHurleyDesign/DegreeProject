@@ -741,7 +741,7 @@ a {
 }
 
 .gridgutters-source {
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 .headline_styles {
@@ -880,6 +880,10 @@ a {
 
 .bib-sourceItalic {
   font-style: italic;
+}
+
+.sourceHover a:hover {
+  color: #7C0221;
 }
 
 .content {

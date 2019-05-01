@@ -140,3 +140,9 @@
 .bib-sourceItalic {
     font-style: italic;
 }
+
+.sourceHover {
+    a:hover {
+        color: $brandRed;
+    }
+}
