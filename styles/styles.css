@@ -560,13 +560,13 @@ legend {
   background-color: #1D1E20;
 }
 
-.grid-fakeFriendDesc {
+.grid-fakeFriend {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[11];
       grid-template-columns: repeat(11, 1fr);
-  -ms-grid-rows: (1fr)[5];
-      grid-template-rows: repeat(5, 1fr);
+  -ms-grid-rows: (1fr)[20];
+      grid-template-rows: repeat(20, 1fr);
   grid-column-gap: 10px;
 }
 
@@ -589,21 +589,55 @@ legend {
 }
 
 .friend-title {
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 6;
-  grid-column: 2/8;
-  -ms-grid-row: 2;
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 5;
+  grid-column: 7/12;
+  -ms-grid-row: 3;
   -ms-grid-row-span: 1;
-  grid-row: 2/3;
+  grid-row: 3/4;
 }
 
 .friend-desc {
+  -ms-grid-column: 7;
+  -ms-grid-column-span: 4;
+  grid-column: 7/11;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 3;
+  grid-row: 3/6;
+  padding-top: 110px;
+}
+
+.friend-photoOne {
   -ms-grid-column: 2;
   -ms-grid-column-span: 5;
   grid-column: 2/7;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  grid-row: 3/5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
+  width: 100%;
+  height: auto;
+}
+
+.friend-photoTwo {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 11;
+  grid-column: 1/12;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 7;
+  grid-row: 6/13;
+  width: 100%;
+  height: auto;
+}
+
+.friend-photoThree {
+  -ms-grid-column: 6;
+  -ms-grid-column-span: 5;
+  grid-column: 6/11;
+  -ms-grid-row: 14;
+  -ms-grid-row-span: 3;
+  grid-row: 14/17;
+  width: 100%;
+  height: auto;
 }
 
 .grid-bibliographyTop {
