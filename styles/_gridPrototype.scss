@@ -5,6 +5,33 @@
     grid-column-gap: 10px;
     padding-top: 5%;
     background-color: $brandBlack;
+
+    @media only screen and (max-width: 1150px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        overflow: hidden;
+
+        .Grid--gutters {
+            margin-bottom: $gutter;
+        }
+
+        .paraPadding {
+            padding-right: 50%;
+
+            @media only screen and (max-width: 840px) {
+                padding-right: 0;
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 840px) {
+        padding-top: 20%;
+    }
 }
 
 .grid-fakeFriend {

@@ -297,6 +297,43 @@ a {
   background-color: #1D1E20;
 }
 
+@media only screen and (max-width: 1150px) {
+  .grid-personasOne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+  .grid-personasOne .Grid--gutters {
+    margin-bottom: 5%;
+  }
+  .grid-personasOne .paraPadding {
+    padding-right: 50%;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (max-width: 840px) {
+  .grid-personasOne .paraPadding {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .grid-personasOne {
+    padding-top: 20%;
+  }
+}
+
 .grid-quote {
   display: -ms-grid;
   display: grid;
@@ -413,6 +450,43 @@ a {
   grid-column-gap: 10px;
   padding-top: 5%;
   background-color: #1D1E20;
+}
+
+@media only screen and (max-width: 1150px) {
+  .grid-journeyOne {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+  .grid-journeyOne .Grid--gutters {
+    margin-bottom: 5%;
+  }
+  .grid-journeyOne .paraPadding {
+    padding-right: 50%;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (max-width: 840px) {
+  .grid-journeyOne .paraPadding {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .grid-journeyOne {
+    padding-top: 20%;
+  }
 }
 
 .grid-journey {
@@ -587,6 +661,43 @@ a {
   background-color: #1D1E20;
 }
 
+@media only screen and (max-width: 1150px) {
+  .grid-prototypeTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+  .grid-prototypeTop .Grid--gutters {
+    margin-bottom: 5%;
+  }
+  .grid-prototypeTop .paraPadding {
+    padding-right: 50%;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (max-width: 840px) {
+  .grid-prototypeTop .paraPadding {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .grid-prototypeTop {
+    padding-top: 20%;
+  }
+}
+
 .grid-fakeFriend {
   display: -ms-grid;
   display: grid;
@@ -686,6 +797,43 @@ a {
   grid-column-gap: 10px;
   padding-top: 5%;
   background-color: #1D1E20;
+}
+
+@media only screen and (max-width: 1150px) {
+  .grid-bibliographyTop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: hidden;
+  }
+  .grid-bibliographyTop .Grid--gutters {
+    margin-bottom: 5%;
+  }
+  .grid-bibliographyTop .paraPadding {
+    padding-right: 50%;
+  }
+}
+
+@media only screen and (max-width: 1150px) and (max-width: 840px) {
+  .grid-bibliographyTop .paraPadding {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .grid-bibliographyTop {
+    padding-top: 20%;
+  }
 }
 
 .bib-heading {
